@@ -1,5 +1,5 @@
 
 def call (){
-  sh "trivy fs --severity HIGH,CRITICAL . "
+  sh "trivy fs -skip-db-update--severity HIGH,CRITICAL . "
 
 }
